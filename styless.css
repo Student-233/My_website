@@ -37,7 +37,6 @@ div {
     /* background: pink; */
     display: flex;
     flex-direction: column;
-    width: 100px;
     height: 20px;
     /* margin: auto; */
 }
@@ -54,5 +53,8 @@ a {
     color: pink;
 }
 h1.not-title {
+    color: gray;
+}
+a.not-header {
     color: gray;
 }
