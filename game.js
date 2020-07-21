@@ -12,4 +12,4 @@ if (age < 16) {
 } else {
     alert('I think you are a lier.');
 }
-alert("All right, thank you for your time, that's really a good time");
+alert("All right, thank you for your time, that's a really good time");
