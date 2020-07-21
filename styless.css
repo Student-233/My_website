@@ -24,20 +24,22 @@ section {
     background: white;
     color: gray;
     padding: 20px;
-    display: flex;
-    flex-direction: row;
+    direction: rtl;
 }
 
 footer {
     background: black;
     padding: 10px;
+    color: gray;
+    text-align: center;
 }
 div {
-    background: pink;
-    display: inline-block;
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
     width: 100px;
     height: 20px;
-    margin: auto;
+    /* margin: auto; */
 }
 ul {
     margin: 0;
@@ -50,4 +52,7 @@ li {
 }
 a {
     color: pink;
+}
+h1.not-title {
+    color: gray;
 }
