@@ -1,60 +1,108 @@
-h1 {
-    color:white;
+/* = = headers = = */
+
+header {
+    background: black;
+    padding: 20px;
 }
-h2 {
-    color: rgb(233, 155, 168);
-}
+
+/* = = body = = */
+
 body {
     background-color: rgb(53, 50, 50);
     color: rgb(255, 138, 157);
     margin: 0;
     padding: 0;
 }
+
 button {
     background: gray;
     border: none;
     color: white;
 }
-header {
-    background: black;
-    padding: 20px;
 
+
+section.left {
+    background: white;
+    color: gray;
+    padding: 20px;
+    direction: ltr;
 }
-section {
+
+section.right {
     background: white;
     color: gray;
     padding: 20px;
     direction: rtl;
 }
-
 footer {
     background: black;
     padding: 10px;
     color: gray;
     text-align: center;
 }
+
 div {
-    /* background: pink; */
     display: flex;
     flex-direction: column;
     height: 20px;
-    /* margin: auto; */
 }
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
+
 li {
     display:inline-block;
     margin-right: 20px;
 }
-a {
+
+a.header {
     color: pink;
 }
+
 h1.not-title {
     color: gray;
 }
-a.not-header {
+
+/* = = colors = = */
+
+.white {
+    color: white;
+}
+
+.gray {
     color: gray;
 }
+
+.black {
+    color: black;
+}
+
+/* = = h(s) = = */
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    color: gray;
+}
+
+h3 {
+    color: gray;
+}
+
+h4 {
+    color: gray;
+}
+
+h5 {
+    color: gray;
+}
+
+h6 {
+    color: gray;
+}
+
